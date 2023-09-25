@@ -1,16 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: #e5e5e5;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: #e5e5e5;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
 </head>
-<body>
+<body style="font-family:Verdana;color:#aaaaaa;">
 
-<h1>Shoebill</h1>
-<p>The shoebill may have been known to Ancient Egyptians[3] but was not classified until the 19th century, after skins and eventually live specimens were brought to Europe. John Gould very briefly described it in 1850 from the skin of a specimen collected on the upper White Nile by the English traveller Mansfield Parkyns. Gould provided a more detailed description in the following year. He placed the species in its own genus Balaeniceps and coined the binomial name Balaeniceps rex.[4][5][6] The genus name comes from the Latin words balaena "whale", and caput "head", abbreviated to -ceps in compound words.[7] Alternative common names are whalebill,[8] shoe-billed stork and whale-headed stork.[9]
+<div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+  <h1>Hello World</h1>
+</div>
 
-    Traditionally considered as allied with the storks (Ciconiiformes), it was retained there in the Sibley-Ahlquist taxonomy which lumped a massive number of unrelated taxa into their "Ciconiiformes". Based on osteological evidence, the suggestion of a pelecaniform affinity was made in 1957 by Patricia Cottam.[10] Microscopic analysis of eggshell structure by Konstantin Mikhailov in 1995 found that the eggshells of shoebills closely resembled those of other Pelecaniformes in having a covering of thick microglobular material over the crystalline shells.[11] In 2003, the shoebill was again suggested as closer to the pelicans (based on anatomical comparisons)[12] or the herons (based on biochemical evidence).[13] A 2008 DNA study reinforces their membership of the Pelecaniformes.[14]
-    
-    So far, two fossilized relatives of the shoebill have been described: Goliathia from the early Oligocene of Egypt and Paludavis from the Early Miocene of the same country. It has been suggested that the enigmatic African fossil bird Eremopezus was a relative too, but the evidence for that is unconfirmed. All that is known of Eremopezus is that it was a very large, probably flightless bird with a flexible foot, allowing it to handle either vegetation or prey.</p>
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
+  </div>
+
+  <div class="main">
+    <h2>Lorum Ipsum</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  </div>
+
+  <div class="right">
+    <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+  </div>
+</div>
+
+<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© copyright w3schools.com</div>
 
 </body>
 </html>
+
